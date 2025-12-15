@@ -1,0 +1,2 @@
+with open('model.bin', 'wb') as f:
+    pickle.dump(model, f)
